@@ -1,8 +1,15 @@
 /* Example google font import */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Chiron+Sung+HK:ital,wght@0,200..900;1,200..900&display=swap');
 /* Target the title element and apply the following styles: */
 
+#subtitle {
+  font-family: "Chiron Sung HK", serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Style title */
 #title {
   background-color: blue;
   color: #ff0062;
@@ -18,4 +25,64 @@
   text-align: center;
 }
 
+/* Style headings */
+h2 {
+  background-color: white;
+  color: #000000;
+  padding: 10px;
+  margin: 20px;
 
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 25px;
+
+  font-family: "Chiron Sung HK", serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Style text */
+p {
+  background-color: #ff0062;
+  color: #ffffff;
+  padding: 10px;
+  margin: 20px;
+
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 25px;
+
+  font-family: "Chiron Sung HK", serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Style images */
+img {
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 25px;
+}
+
+/* Style button */
+button {
+  background-color: blue;
+  color: #ff0062;
+  padding: 10px;
+  margin: 20px;
+
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 25px;
+
+  font-family: "Chiron Sung HK", serif;
+  font-size: 18px;
+}
+#button {
+  text-align: right;
+}
+button:hover {
+  background-color: #ff0062;
+  color: blue;
+  cursor: pointer;
+}
